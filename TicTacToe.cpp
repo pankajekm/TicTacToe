@@ -244,6 +244,7 @@ int TicTacToe::minimax(int player,int depth)
         int winner=getWinner();
         return winner*1000;
 
+
     }
     int move,movelist[9],movelist_count;
     int best_move,prev_bestmove;
