@@ -1,0 +1,1 @@
+This program was written in a single days. It is not optmized
