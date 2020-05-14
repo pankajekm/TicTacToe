@@ -1,6 +1,6 @@
-//
-// Created by pankaj on 12/05/20.
-//
+//Copyright (c) 2020, Pankaj Kumar G
+//All rights reserved.
+// SPDX-License-Identifier: BSD 3-Clause
 
 #include "TicTacToe.h"
 #include<iostream>
@@ -243,7 +243,6 @@ int TicTacToe::minimax(int player,int depth)
     {
         int winner=getWinner();
         return winner*1000;
-
 
     }
     int move,movelist[9],movelist_count;
